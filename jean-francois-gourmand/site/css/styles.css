@@ -1,0 +1,600 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+img,
+video{
+	vertical-align: bottom;
+}
+.clearfix {
+	clear:both;
+}
+.container {
+	width: 1140px;
+	margin:0 auto;
+	color:white;
+}
+body {
+	background-color: #63351c;
+	font-family: 'Charm', sans-serif;
+}
+header {
+	background-color: #f5f2ee;
+}
+nav {
+	width: 1140px;
+	margin:0 auto;
+}
+p {
+	font-size: 18px;
+	line-height: 20px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	text-align: center;
+	margin-top: 40px;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+h4 {
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 30px;
+	text-align: left;
+	padding-top: 84px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h5 {
+	font-size: 30px;
+	font-weight:bold;
+	text-align: center;
+	margin-bottom: 90px;
+	margin-top: 120px;
+}
+.colonnesgauche1 {
+	float: left;
+	width: 380px;
+	margin-bottom:8px;
+	margin-top:14px;
+}
+.colonnedroite1 {
+	float: right;
+	width: 730px;
+}
+a {
+	color: #da8c43;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 20px;
+	/*margin-t: ;op: 33px;	*/
+}
+
+nav li a:hover {
+	color: #63351c;
+	transition: 500ms;
+
+}
+.slider {
+	margin-top:80px;
+}
+.colonnegauche {
+	float: left;
+	width: 570px;
+}
+.colonnedroite {
+	float: right;
+	width: 475px;
+}
+.txt p {
+	margin-bottom:35px;
+	line-height:20px;
+	font-size: 18px;
+}
+
+.lien {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	margin-bottom:80px;
+}
+.lien img {
+	width: 315px;
+	height: 265px;
+	padding-right: 32px;
+}
+.imgdroite {
+	float: right;
+}
+.imggauche {
+	float: left;
+}
+footer {
+	background-color:#2a140c;
+	color: white;
+	padding-bottom: 50px;
+}
+.colonnelien {
+	width: 1140px;
+	margin:0 auto;
+	color: white;
+	padding-top: 50px;
+}
+.colonnegauche2 {
+	float: left;
+	width: 50%;
+	padding-left: 15px;
+}
+.colonnedroite2 {
+	float: right;
+	width: 50%;
+	padding-left:275px;
+}
+.colonnelien .colonnedroite2 a {
+	color: white;
+	font-size:40px;
+}
+.colonnelien .colonnedroite2 a:hover {
+	color:#da8c43;
+	font-size:40px;
+	transition:500ms;
+}
+.gauche {
+	float:left;
+}
+.droit {
+	float:right;
+}
+.centre h4 {
+	text-align: center;
+}
+.centre p {
+	text-align: center;
+	margin-bottom:20px;
+}
+.specialite {
+margin-top: 90px;
+}
+.specialite1 {
+	margin-top:120px;
+	margin-bottom: 100px;
+}
+.specialite p {
+	line-height: 20px;
+	font-size: 18px;
+}
+.g {
+	float: left;
+	width: 50%;
+	margin:0 auto;
+}
+.d {
+	float: right;
+	width: 50%;
+}
+.recettea {
+	margin-bottom: 30px;
+}
+.recettea a:hover {
+	transition: 350ms;
+	color:#da8c43;
+	margin:0 auto;
+}
+.recettea a {
+	color: white;
+}
+.recettea p {
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 25px;
+	width: 540px;
+	line-height: 27px;
+}
+.contact {
+	margin-top: 50px;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.row {
+	max-width: 1140px;
+	margin: auto;
+}
+.fichecontact {
+	margin-bottom: 35px;
+}
+input, textarea {
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: #d7b4a3;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Charm', sans-serif;
+
+}
+input {
+	background-color: #d7b4a3;
+	font: white;
+	text-align: center;
+	color: white;
+	font-family: 'Charm', sans-serif;
+}
+.formulaire p {
+	text-align:center;
+	margin-bottom: 15px
+}
+.accueil p {
+	width: 570px;
+}
+.textp {
+	width: 622px;
+	line-height: 19px;
+}
+.textp li {
+	font-size: 18px;
+	line-height: 24px;
+}
+ul {
+	margin-top:23px;
+}
+.coffret1 {
+	margin-left: 20px;
+}
+.coffret2 {
+	margin-right: 110px;
+}
+.envoyer input {
+	width: 100px;
+	margin-left: 200px;
+}
+.envoyer input:hover {
+	background-color: #2a140c;
+}
+.ganache img {
+	margin-left: 60px;
+	margin-bottom:40px;
+}
+.ganache .gauche{
+	width: 540px;
+}
+.ganache .droit{
+	width: 540px;
+}
+.ganache p{
+	text-align: center;
+	margin-bottom: 40px;
+	line-height: 22px;
+}
+.recette {
+	margin-bottom:135px;
+	width:1100px;
+	margin-left: 176px;
+}
+.etape {
+	text-align: center;
+	line-height: 36px;
+	margin-bottom: 13px;
+	font-size: 23px;
+	margin-top: 80px;
+}
+.gauche2 {
+	float:left;
+	width: 33%;
+}
+.gauche2 p{
+	text-align: left;
+	margin-right: 27px;
+
+}
+.droit2 {
+	float: right;
+}
+.gauche3 {
+	float: left;
+}
+.droit3 {
+	float: left;
+}
+.recette p{
+	font-size: 30px;
+	padding-top: 12px;
+	padding-left: 20px;
+}
+.horloge p{
+	margin-right: 36px;
+}
+.contact a{
+	color: white;
+	font-size:18px;
+	font-weight: bold;
+}
+.contact a:hover{
+	transition: 350ms;
+	color:#da8c43;
+}
+.contact p{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.contact {
+	width: 1140px;
+	margin:0 auto;
+	margin-top: 50px;
+	line-height: 20px;
+}
+.horloge {
+	float: left;
+	width:33%;
+}
+.personne {
+	float: left;
+	width: 33%;
+}
+.ingredient p{
+	font-size: 30px;
+	line-height: 32px;
+}
+.f {
+	float: left;
+	width: 33%;
+	padding-right: 115px;
+}
+.f1 {
+	float: left;
+	width: 33%;
+	padding-right: 19px;
+}
+.f2 {
+	float: left;
+	width: 33%;
+}
+iframe {
+	margin-left: 50px;
+}
+.histoire p {
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom:23px;
+
+}
+.aju {
+	margin-bottom: 20px;
+}
+.aju2 {
+	margin-bottom:24px;
+}
+.h-g {
+	float: left;
+	width: 35%;
+}
+.h-d {
+	float: right;
+	width: 65%;
+}
+.h-g1 {
+	float: left;
+	width: 40%;
+}
+.h-d1 {
+	float: right;
+	width: 60%;
+}
+.ajust4 {
+	margin-top: 91px;
+}
+.ajust5 {
+	margin-top: 20px;
+}
+.aju3 {
+	margin-bottom:55px;
+}
+#slideshow {
+	position: relative;
+	width: 1140px;
+	height: 422px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2280px;
+	margin: 0;
+	padding: 0;
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+#slideshow img{
+	float: left;
+	width: 50%
+}
+@keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: 0px; /*2ème image*/
+	}
+	50% {
+		left: -1140px; /*idem pour attente*/
+	}
+	70% {
+		left: -1140px; /*3ème image*/
+	}
+	85% {
+		left: -1140px; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
+.ajust3 {
+	margin-top: 50px;
+}
+.mb {
+	margin-bottom: 30px;
+}
+.mt {
+	margin-top: 20px;
+}
+.retour {
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 8px;
+	position: fixed;
+	bottom: 30%;
+	right: 2%;
+}
+.retour:hover {
+	background-color: black;
+	color: #fff;
+}
+.lien .effet:before {
+	position: absolute;
+	content: '';
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	transition: 0.5s;
+	transform: scaleX(0);
+	opacity: 0;
+}
+.lien .effet:hover:before {
+	transform: scaleX(1);
+	opacity: 1;
+}
+.lien .effet:after {
+	position: absolute;
+	content: '';
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transition: 0.5s;
+	transform: scaleY(0);
+	opacity: 0;
+}
+.lien .effet:hover:after {
+	transform: scaleY(1);
+	opacity: 1;
+}
+.lien .effet {
+	position: relative;
+}
+.effet img {
+	transition: 0.5s; 
+}
+.effet:hover img {
+	opacity: 0.4;
+	transform: scale(1.2);
+}
+.effet {
+	overflow: hidden;
+	width: 285px;
+	height: 265px;
+	margin-left: 50px;
+}
+.contenu p {
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+        transition-delay: 0s;
+    transition-delay: 0.2s;
+    left: 22%;
+    font-size: 30px;
+}
+.effet:hover .contenu p {
+	transform: translateY(0px);
+	opacity: 1;
+	visibility: visible;
+}
+.effet.contenu {
+	text-align: center;
+}
+.imgdroite .contenu p {
+	left:27%;
+}
+.imgcentre .contenu p {
+	left:30%;
+}
