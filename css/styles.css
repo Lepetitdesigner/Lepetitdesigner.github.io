@@ -569,22 +569,22 @@ svg#Capa_1 {
 	background: #fefefe;
 	border-color: #007bb5;
 }
- .social-button.github {
+.social-button.github {
 	border: 1px solid #fff;
 	font-size: 37px;
 	line-height: 50px;
-  }
-  
- .social-button.github:before {
+}
+
+.social-button.github:before {
 	font-family: "FontAwesome";
 	content: "";
-  }
-  
- .social-button.github:hover, .social-button.github:focus {
+}
+
+.social-button.github:hover, .social-button.github:focus {
 	color: #000000;
 	background: #fefefe;
 	border-color: #000000;
-  }
+}
 .positionR {
 	position: relative;
 }
@@ -600,7 +600,7 @@ svg#Capa_1 {
 }
 .positionA1 {
 	position: absolute;
-	top: 28%;
+	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -617,7 +617,7 @@ svg#Capa_1 {
 }
 .placement {
 	width: 300px;
-	margin: 290px auto 0 auto;
+	margin: 490px auto 0 auto;
 }
 .positionA a , .positionA1 a{
 	border: 1px solid #fff;
@@ -627,6 +627,12 @@ svg#Capa_1 {
 }
 .placement a {
 	color: #fff;
+}
+.ajust10 {
+	margin-top: 400px;
+}
+.small {
+	width: 55.3%;
 }
 .positionA a:hover , .positionA1 a:hover{
 	background-color: #fff;
@@ -692,7 +698,12 @@ footer.bg {
 	margin-top: 130px;
 }
 .projet img {
-	box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.66);
+	box-shadow:
+	0 17.2px 10.2px -16px rgba(0, 0, 0, 0.078),
+	0 25.5px 25px -16px rgba(0, 0, 0, 0.106),
+	0 32.7px 51.4px -16px rgba(0, 0, 0, 0.135),
+	0 69px 98px -16px rgba(0, 0, 0, 0.21)
+	;
 }
 p.etiquette {
 	color: #fff;
@@ -792,9 +803,16 @@ p.etiquette.ml212 {
 		flex-direction: column-reverse;
 		text-align: center;
 	}
+	.space2, .space3 {
+		width: 424px;
+		margin: 200px auto;
+	}
 	.d-flex3 {
 		flex-direction: column-reverse;
 		text-align: center;
+	}
+	.small {
+		width: inherit;
 	}
 	
 	.blocText {
@@ -804,8 +822,9 @@ p.etiquette.ml212 {
 		width: inherit;
 		margin-left: initial;
 	}
-	.space2 {
-		margin: 200px 0;
+	.ajust11 {
+		width: 767px;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width:1524px){
@@ -929,10 +948,6 @@ p.etiquette.ml212 {
 	.box .d-flex img {
 		width: 100%;
 	}
-	.positionR:nth-child(2) {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
 }
 @media screen and (max-width:906px){
 	.red h2 span {
@@ -971,8 +986,15 @@ p.etiquette.ml212 {
 	.w-104 {
 		width: calc(100% - 25px);
 	}
+	.ajust11 {
+		width: 100%;
+	}
+	.ajust11 .positionA1 {
+		left: 13px;
+		right: 12px;
+	}
 }
-@media screen and ( max-width:673px){
+@media screen and ( max-width:673px ){
 	.ml {
 		margin-left: 0;
 	}
@@ -983,7 +1005,15 @@ p.etiquette.ml212 {
 		width: 100%;
 	}
 }
-@media screen and (max-width:590px){
+@media screen and ( max-width:600px ){
+	.placement {
+		margin-top: 60%;
+	}
+	.space2 .positionR .positionA1 .placement, .space3 .positionR .positionA1 .placement {
+		margin-top: 95%
+	}
+}
+@media screen and ( max-width:590px ){
 	.container2 .d-flex {
 		flex-direction: column;
 	}
@@ -1115,6 +1145,15 @@ p.etiquette.ml212 {
 		width: calc(100% - 25px);
 	}
 }
+@media screen and (max-width:428px){
+	.space2, .space3 {
+		width: 100%;
+	}
+	.space2 .positionR .positionA1,.space3 .positionR .positionA1 {
+		left: 13px;
+		right: 12px;
+	}
+}
 @media screen and (max-width:400px){
 	.ajust2 .d-flex {
 		flex-direction: column;
@@ -1130,5 +1169,29 @@ p.etiquette.ml212 {
 	}
 	.project .t-center p{
 		margin: 0 15px; 
+	}
+}
+@media screen and (max-width:390px){
+	.positionA1 {
+		position: initial;
+		opacity: 1;
+	}
+	.positionA1:hover {
+		background: inherit;
+	}
+	.positionA1 a:hover {
+		background-color: #ec6f66;
+		transition: 350ms;
+		color: #fff;
+	}
+	.positionA1 .placement {
+		margin-top: 100px;
+	}
+	.space2 .positionR .positionA1 .placement, .space3 .positionR .positionA1 .placement {
+		margin-top: 100px;
+	}
+	.positionA1 a{
+		color: #EC6F66 ;
+		border: 1px solid #EC6F66;
 	}
 }
