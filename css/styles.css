@@ -668,7 +668,7 @@ footer.bg {
 }
 .container {
 	width: 1525px;
-	margin: 0 auto;
+	margin: 0 auto 50px auto;
 }
 .container1 {
 	width: 424px;
@@ -1131,6 +1131,9 @@ p.etiquette.ml212 {
 	}
 	.ajust1 a.hover-effect {
 		margin-bottom: 35px;
+	}
+	.download a {
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width:447px){
