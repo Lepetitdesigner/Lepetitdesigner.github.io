@@ -525,7 +525,7 @@ input::placeholder {
 	color: #fff;
 	font-weight: bold;
 }
-input[type="submit"] {
+.wrapper input {
 	width: 180px;
 	padding: 6px;
 	margin-left: 226px;
@@ -841,6 +841,9 @@ p.etiquette.ml212 {
 	.mr {
 		margin-right: 118px;
 	}
+	.size2 {
+		width: calc(100% - 25px);
+	}
 }
 @media screen and ( max-width:1500px) {
 	.w-101 {
@@ -870,6 +873,30 @@ p.etiquette.ml212 {
 @media screen and (max-width: 1323px) {
 	.contact {
 		width: calc(100% - 25px);
+	}
+}
+@media screen and (max-width:1310px){
+	.size2 {
+		flex-direction: column-reverse;
+	}
+	.d-column input {
+		margin: 0 auto 27px auto;
+	}
+	.wrapper input {
+		margin-left: 0;
+	}
+	.wrapper {
+		text-align: center;
+	}
+	.d-column {
+		order: 2;
+	}
+	textarea {
+		order: 1;
+		margin: 96px auto 45px auto;
+	}
+	.size2 img {
+		order: 3;
 	}
 }
 @media screen and (max-width: 1226px){
